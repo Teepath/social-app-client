@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "axios": "^0.19.0",
+    "dayjs": "^1.8.16",
+    "jwt-decode": "^2.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.1",
     "react-scripts": "3.1.2"
   },
   "scripts": {
@@ -27,5 +32,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://us-central1-social-app-4521b.cloudfunctions.net/api"
 }
